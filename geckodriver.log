@@ -425,3 +425,195 @@ JavaScript error: resource://gre/modules/SearchService.jsm, line 1954: NS_ERROR_
 4
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1571635476003	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile6Rer1z"
+1571635477298	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571635477298	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571635477299	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571635477299	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1571635480126	Marionette	INFO	Listening on port 54675
+1571635480467	Marionette	WARN	TLS certificate errors will be ignored for this session
+[[Child 7C0hild 5932, 0C4hrome,_ CChhildThread] rWoAme_ChiRNINldThreGad] WARNING: pipe:  erropripe er:r 109: ofile rz::/ ta1sk_150706400893/bui:ld /sfrci/lipc/chromiume/src/ chzro:me//tcaosmkm_o1n5/7i0pc6_channel_win.c4c,0 l0i8ne3 3/4b1
+uild/src/ipc/chro[Chimlidu 70m/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5932,[Parent 9120, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3712, Ch1571635914633	Marionette	INFO	Stopped listening on port 54675
+[GPU 9608,
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Script error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1571635532706	Marionette	INFO	Listening on port 54771
+1571635532800	Marionette	WARN	TLS certificate errors will be ignored for this session
+Ja[GFX1]: [D2vDaScript error: , 1.1] CreateBitmlapFromDxginei S0u: uncaught erxception: ofuatc eo ff amielmuorrye
+ Code: 0x887a0005 format 0
+[GFX1]: [D2D1.1] CreateBitmapJavaScript errFor: , liner 0: uncaught excoemptDixogn: iout of memoSruyr
+face failure Code: 0x887a0005 format 1
+[GFX1-]: Failed to OpenSharedResource for SyncObjectD3D11: 0x887a0005
+JavaScript error: , line 0: uncaught exception: out of memory
+[GFX1-]: (gfxWindowsPlatform) Detected device reset: 4
+[GFX1-]: (gfxWindowsPlatform) scheduled device update.
+[GFX1-]: LayerManager::EndTransaction skip RenderLayer().
+[GFX1-]: A content-only TDR is detected.
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: NS_ERROR_FAILURE: SearchService previously failed to initialize
+[GFX1-]: Failed to create a D3D11 content device: 0x8876017c
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+Assertion failure: [unhandlable oom] Failed to allocate slots while tenuring., at z:/task_1570640083/build/src/js/src/vm/JSContext.cpp:1479
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+Exiting due to channel error.
+1571635565293	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileRxyjaz"
+1571635566312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571635566312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571635566312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571635566312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1571635569631	Marionette	INFO	Listening on port 54853
+1571635569735	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: [D3D11] 2 CreateTexture2D failure Size: Size(1366,562)texture11: false Code: 0x8007000e
+[GFX1-]: Failed buffer for 0, 70, 1366, 562
+JavaScript error: , line 0: uncaught exception: out of memory
+[GFX1]: [D2D1.1] CreateBitmapFromDxgiSurface failure CodeJ: 0x887aavaSc00r05 format 1
+ipt error: , line 0: uncaught exception: out of memory
+[GFX1-]: Failed to OpenSharedResource for SyncObjJavaScript error: ,e cltiDn3eD 101:: 0 uncaught excepx887a00tion: out05 
+of memory
+[GFX1-]: (gfxWindowsPlatform) Detected device reset: 4
+[GFX1-]: (gfxWindowsPlatform) scheduled device update.
+[GFX1-]: LayerManager::EndTransaction skip RenderLayer().
+[GFX1-]: A content-only TDR is detected.
+JavaScript error: https://qiyukf.com/script/044865c94981c048609d5c94c1ae9c6d.js, line 1: SyntaxError: return not in function
+[GFX1-]: [D3D11] 2 CreateTexture2D failure Size: Size(1366,562)texture11: false Code: 0x8007000e
+[GFX1-]: Failed buffer for 0, 70, 1366, 562
+Exiting due to channel error.
+Exiting due to channel error.
+1571635629431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilexqZ4gU"
+1571635630533	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571635630534	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571635630534	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571635630534	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1571635633470	Marionette	INFO	Listening on port 54950
+1571635633782	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: [D3D11] 2 CreateTexture2D failure Size: Size(1366,562)texture11: false Code: 0x8007000e
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[GFX1-]: WMF VPX decoder just crashed; hardware video will be disabled.
+[Parent 5664, Gecko_IOThread] WARNING: file z:/task_1570640083/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Child 11024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11024, Chrome_Ch[Parent 5664, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 952, 1571635639797	Marionette	INFO	Stopped listening on port 54950
+[GPU 10308, Chro
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1571635859856	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileRUhgPA"
+1571635860900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571635860900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571635860900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571635860900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: Failed buffer for 0, 0, 1366, 736
+JavaScript error: , line 0: uncaught exception: out of memory
+[GFX1-]: Failed buffer for 0, 0, 1366, 736
+console.error: "out of memory"
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+[Parent 9468, Gecko_IOThread] WARNING: file z:/task_1570640083/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[GFX1-]: Failed buffer for 0, 0, 1366, 736
+[GFX1-]: Failed buffer for 0, 0, 1366, 736
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 237: Error: Internal error: expecting msg 5,  got 6: {"ok":1197,"id":6}
+JavaScript error: chrome://browser/content/browser-places.js, line 1749: TypeError: PageActions.actionForID(...) is undefined
+1571635898989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile3ua38s"
+1571635900120	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: out of memory
+1571635900121	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1571635900127	addons.xpi-utils	WARN	addMetadata: Add-on fxmonitor@mozilla.org is invalid: out of memory
+1571635900128	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+1571635908772	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileucYs7C"
+1571635909775	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: out of memory
+1571635909775	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+Assertion failure: [unhandlable oom] Failed not allocate new chunk during GC, at z:/task_1570640083/build/src/js/src/vm/JSContext.cpp:1479
+1571635926863	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileixWUXL"
+1571635927938	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571635927938	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571635927938	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571635927938	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1571635931190	Marionette	INFO	Listening on port 55372
+1571635931258	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8204, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 8204, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3056, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child[Ch ild 2864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[C[Parent 8204, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5312, Chrome_ChildThread] console.error: (new Error("Transaction canceled due to a closed connection.", "resource://gre/modules/Sqlite.jsm", 613))
+1571639457796	Marionette	INFO	Stopped listening on port 55372
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1571641563649	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileU08bGP"
+1571641564819	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571641564819	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571641564820	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571641564820	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1571641568015	Marionette	INFO	Listening on port 56816
+1571641568100	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13028, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel[Parent 13028, Gecko_IOThrea_d] WARNING: pipe errowr: 109: file z:/tainsk_1570640083/build/src/.ccipc/chromium/src/chrome/common/ipc_chan, line 341
+nel_win.cc, line 341
+[Child 6828, Chrome_[Child 12876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12876, Chrome_Ch[Parent 13028, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1570640083/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5400, console.error: (new Error("Transaction canceled due to a closed connection.", "resource://gre/modules/Sqlite.jsm", 613))
+1571641607893	Marionette	INFO	Stopped listening on port 56816
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[G
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

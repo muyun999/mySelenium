@@ -1,12 +1,13 @@
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.by import By
 LOCATOR_DICT = {
-    'id': 'By.ID',
-    'css': 'By.CSS_SELECTOR',
-    'name': 'By.NAME',
-    'xpath': 'By.XPATH',
-    'link_text': 'By.LINK_TEXT',
-    'tag': 'By.TAG_NAME',
-    'class_name': 'By.CLASS_NAME'
+    'id': By.ID,
+    'css': By.CSS_SELECTOR,
+    'name': By.NAME,
+    'xpath': By.XPATH,
+    'link_text': By.LINK_TEXT,
+    'tag': By.TAG_NAME,
+    'class_name': By.CLASS_NAME
 }
 
 
@@ -19,11 +20,7 @@ class BasePage:
         self.driver.get(url)
         self.driver.implicitly_wait(3)
 
-    def run_script(self, js=None):
-        if js is None:
-            print("请传入js参数")
-        else:
-            self.driver.execute_script(js)
+
 
 
 class PageElement:
@@ -40,25 +37,31 @@ class PageElement:
         else:
             self.element_locator = LOCATOR_DICT.get(self.k), self.v
 
-    def get_element(self):
+    def get_element(self, context):
         try:
-            elem = self.driver.find_element(*self.element_locator)
+            elem = context.find_element(*self.element_locator)
         except NoSuchElementException:
             print("找不到元素")
             return None
         else:
             style_red = 'arguments[0].style.border="2px solid red"'
-            self.driver.execute_script(style_red, elem)
+            context.execute_script(style_red, elem)
             return elem
 
-    def find(self):
-        for i in range(1,self.timeout):
+    def find(self, context):
+        for i in range(1, self.timeout):
             print(f"第{i}次查找元素:{self.element_locator}")
-            if self.get_element() is not None:
-                return self.get_element()
+            if self.get_element(context) is not None:
+                return self.get_element(context)
 
-    def __get__(self, instance, owner):
-        return self.find()
+    def __get__(self, instance, owner, context=None):
+        '''context是为了传递driver
+        instance 返回调用__get__的实例,如果没有返回None'''
+        if instance is None:
+            return None
+        else:
+            context = instance.driver
+            return self.find(context)
 
 
 
